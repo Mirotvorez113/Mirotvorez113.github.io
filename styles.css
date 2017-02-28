@@ -1,0 +1,182 @@
+body 
+{
+     background-color: #393E41;
+     /*background-image: url("images/imageedit_2_5054868180.jpg");*/
+     background-size: cover;
+     background-position: center center;
+     background-repeat: no-repeat;
+     background-repeat: no-repeat;
+     background-attachment: fixed;
+     -moz-background-size: cover;
+    -o-background-size: cover;
+    -webkit-background-size: cover;
+     color: #FFFFFF;
+}
+
+a 
+{
+    text-decoration: none;
+}
+
+p 
+{
+     color: #FFFF33;
+     text-align: left;
+     font: italic 200% Helvetica;
+}
+
+h1 
+{
+     background-color: #E94F37;
+     color: #F6F7EB;
+     text-align: right;
+     margin: auto;
+     margin-top: 15px;
+     min-width:1200px;
+     width: 95%;
+     padding: 7px;
+     padding-right: 10px;
+     font: italic 150% Helvetica;
+     border: 10px solid #F6F7EB;
+     border-radius: 10px;
+}
+
+h2
+{
+    position: absolute;
+    top: 210px;
+    left: 70px;
+    width: 100%;
+    color: #F6F7EB;
+}
+
+#home_image 
+{
+    display: block;
+    padding-top: 15px;
+    margin: auto;
+    margin-top: 15px;
+    width: 95%;
+    float: center;
+}
+
+#primary_nav_wrap
+{
+    position: relative;
+    display: inline-block;
+    white-space:nowrap;
+    margin: auto;
+    margin-top: 15px;
+    top:0px;
+    left:10px;
+    right:0px;
+    bottom:0px;
+    width:95%;
+    min-width:1200px;
+    background-color:#44BBA4;
+    color:white;
+    height:35px;
+    padding-top:11px;
+    padding-bottom: 11px;
+    border: 10px solid #FFFFFF;
+    border-radius: 10px;
+}
+
+#primary_nav_wrap ul
+{
+    text-align:left;
+    list-style-type:none;
+    position:relative;
+    margin:0 auto;
+}
+
+#primary_nav_wrap ul a
+{
+    display:block;
+    color:#763626
+    text-decoration-color: #763626;
+    font-weight:700;
+    font-size:20px;
+    line-height:32px;
+    padding:0 55px;
+    font: bold 150% Helvetica;
+}
+
+#primary_nav_wrap ul li
+{
+    position:relative;
+    float:left;
+    margin:0;
+    padding:0;
+}
+
+#primary_nav_wrap ul li.current-menu-item
+{
+    background:#44BBA4;
+}
+
+#primary_nav_wrap ul li:hover
+{
+    background:#44BBA4;
+}
+
+#primary_nav_wrap ul ul
+{
+    display:none;
+    position:absolute;
+    top:100%;
+    left:0;
+    background:#44BBA4;
+    padding:0
+}
+
+#primary_nav_wrap ul ul li
+{
+    float:none;
+    width:435px
+}
+
+#primary_nav_wrap ul ul a
+{
+    line-height:120%;
+    padding:10px 15px
+}
+
+#primary_nav_wrap ul ul ul
+{
+    top:0;
+    left:100%
+}
+
+#primary_nav_wrap ul li:hover > ul
+{
+    display:block;
+}
+
+#additional_nav_wrap
+{
+    position: relative;
+    text-align: left;
+    white-space:nowrap;
+    float: right;
+    margin: auto;
+    margin-top: 15px;
+    min-height:70px;
+    min-width: 300px;
+    padding-top:11px;
+    padding-bottom: 11px;
+    background-color:#44BBA4;
+    color:white;
+    border: 10px solid #FFFFFF;
+    border-radius: 10px;
+}
+
+#additional_nav_wrap ul 
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    width: 60px;
+    font: bold 100% Helvetica;
+    line-height: 150%;
+}
