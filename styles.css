@@ -95,18 +95,19 @@ h1
 		top: 210px;
 		left: 30px;
 		right: 30px;
-		color: white;
+		color: #F1FAEE;
 		text-align: justify;
-		text-shadow: black;
+		text-shadow: #1D3557;
 		letter-spacing: 3px;
 		line-height: 20px;
 		}
-#button a {
+#buttonF a {
         text-decoration: none;
         text-align: center;
         font: italic 100% Helvetica;
         display: block;
-        width: 160px;
+        float: right;
+        width: 180px;
         height: 20px;
         line-height: 25px;
         background-color: #A8DADC;
@@ -115,4 +116,20 @@ h1
         border-top: 10px solid transparent;
         border-bottom: 10px solid transparent;
         border-left: 10px solid red;
+        }
+#buttonB a {
+        text-decoration: none;
+        text-align: center;
+        font: italic 100% Helvetica;
+        display: block;
+        float: left;
+        width: 180px;
+        height: 20px;
+        line-height: 25px;
+        background-color: #A8DADC;
+        border: 2px solid #457B9D;
+        border-radius: 5px;
+        border-top: 10px solid transparent;
+        border-bottom: 10px solid transparent;
+        border-right: 10px solid red;
         }
